@@ -1,0 +1,14 @@
+{
+  "cloudEventsVersion": "0.1",
+  "eventID": "ee7118dd-2d01-4de3-90df-4fac711752f7",
+  "eventType": "oci.objectstorage.object.create",
+  "source": "service/objectstorage/compartment/ocid1.compartment.oc1..aaaaaaaaokqwj2jn3hf5kwdwqoxl2dq7u54p3tsmxrjd7s3uu7x23tkegiua/resourcetype/object",
+  "eventTypeVersion": "1.0",
+  "eventTime": "2018-09-24T17:08:57Z",
+  "schemaURL": "",
+  "contentType": "application/json",
+  "extensions": {
+    "compartmentId": "ocid1.compartment.oc1..aaaaaaaaokber2jn3hf5kwdwqoxl2dq7u54p3tsmxrjd7s3uu7x23tkegiua"
+  },
+  "data": "{\"tenantId\":\"ocid1.tenancy.oc1..aaaaaaaaydqwm77otncda2xn7qtv7l3hqnd3zxn2u6siwdhniibwfv4wwhta\",\"bucketOcid\":\"ocid1.bucket.oc1.phx.aaaaaaaa2hhgastpnd5rj74v5xnfeynebu5bbjtoapj32ywhxkjegj4yzfee\",\"bucketName\":\"test-bucket\",\"api\":\"v2\",\"objectName\":\"testfile.txt\",\"objectEtag\":\"78FCC41EEAC05D42E053C21C10ACDFDZ\",\"resourceType\":\"OBJECT\",\"action\":\"CREATE\",\"creationTime\":\"2018-09-24T17:08:57.829Z\"}"
+}

@@ -1,0 +1,10 @@
+schema_version: 20180708
+name: notifyonupload
+version: 0.0.9
+runtime: go
+entrypoint: ./func
+format: http-stream
+triggers:
+- name: notify
+  type: http
+  source: /notify
